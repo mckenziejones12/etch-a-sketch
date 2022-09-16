@@ -1,0 +1,17 @@
+#container {
+  /* set some styles for container */
+  margin: 20px auto;
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  outline: 2px solid;
+
+  /*  set base grid styles */
+  display: grid;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.cell {
+  background-color: white;
+}
